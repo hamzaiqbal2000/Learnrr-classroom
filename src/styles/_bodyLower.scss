@@ -1,0 +1,45 @@
+.body-lower {
+  h1 {
+    font-weight: bolder !important;
+    font-size: 34px !important;
+    //text-align: center;
+    color: #2f281e;
+  }
+  .img-1 {
+    flex-grow: 5;
+  }
+  .img-3 {
+    flex-grow: 5;
+    img {
+      width: 500px;
+    }
+  }
+
+  .pic-1 {
+    width: 460px;
+  }
+  img {
+    width: 550px;
+    margin-left: -20px;
+  }
+
+  .heading-text {
+    //margin-left: 20px;
+    flex-grow: 2;
+    width: 400px;
+  }
+
+  .heading-text-2 {
+    @extend .heading-text;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  // .pic-2,
+  // .pic-3 {
+  //   width: 550px;
+  // }
+  .heading-text-3 {
+    @extend .heading-text;
+    //margin-left: 20px;
+  }
+}

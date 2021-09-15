@@ -1,0 +1,51 @@
+.tutor-card {
+  background: #f6f6f6;
+  border-radius: 10px;
+  border-radius: 20px;
+  width: 180vh;
+  margin: 30px;
+  padding: 15px;
+
+  h5 {
+    font-size: 15px;
+    font-weight: 350;
+    margin: 10px 10px 10px 10px;
+  }
+  img {
+    margin: 10px;
+    width: 15vh;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  h4 {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .hello {
+    overflow: auto;
+    h5 {
+      word-wrap: break-word; /* IE 5.5-7 */
+      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+      white-space: pre-wrap; /* current browsers */
+      overflow: auto;
+    }
+  }
+}
+
+.btn-7 {
+  @extend .btn-4;
+  width: 30vh;
+  height: 8vh;
+  margin-left: 10px;
+}
+
+.btn-8 {
+  @extend .btn-2;
+  margin-top: 15px;
+  width: 30vh;
+  height: 7vh;
+  color: black;
+  margin-left: 10px;
+}

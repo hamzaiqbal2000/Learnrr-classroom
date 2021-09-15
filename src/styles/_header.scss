@@ -1,0 +1,56 @@
+.header {
+  margin-top: 90px;
+}
+
+.img-12 {
+  z-index: 2;
+  img {
+    width: 100%;
+  }
+}
+
+.header-col-1 {
+  margin-right: 110px;
+  z-index: 2;
+  h1 {
+    width: 522px;
+    height: 188px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+
+    /* or 135% */
+
+    color: #2f281e;
+  }
+  h5 {
+    width: 476px;
+    height: 62px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    color: #544837;
+  }
+}
+
+.btn-4 {
+  @extend .btn-1;
+  box-shadow: none;
+  width: 255px;
+  height: 56px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}

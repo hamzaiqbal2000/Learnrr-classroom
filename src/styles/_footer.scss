@@ -1,0 +1,25 @@
+.footer {
+  background-color: #3a5aff;
+  height: 60vh;
+  color: white;
+  margin-top: 100px;
+  padding-top: 60px;
+
+  .col-123 {
+    margin-right: 40px;
+    //width: 100px;
+    h4 {
+      font-style: normal;
+      font-weight: bold;
+
+      font-size: 20px;
+      line-height: 70px;
+    }
+    h5 {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+}

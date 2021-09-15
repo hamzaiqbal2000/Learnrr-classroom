@@ -1,0 +1,22 @@
+.subject-2 {
+  h1 {
+    font-weight: bolder !important;
+    font-size: 34px !important;
+    text-align: center;
+    color: #2f281e;
+  }
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  height: 65vh;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}

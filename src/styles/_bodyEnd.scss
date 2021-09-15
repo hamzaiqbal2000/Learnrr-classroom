@@ -1,0 +1,21 @@
+.body-end {
+  margin-top: 100px;
+  .image-1 {
+    margin-right: 80px;
+    img {
+      width: 500px;
+    }
+  }
+  h1 {
+    width: 522px;
+    height: 188px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 85px;
+    /* or 135% */
+
+    color: #2f281e;
+  }
+}

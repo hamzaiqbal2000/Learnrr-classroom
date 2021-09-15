@@ -1,0 +1,35 @@
+.body-middle {
+  //background-color: aqua;
+
+  h1 {
+    font-weight: bolder !important;
+    font-size: 34px !important;
+    text-align: center;
+    color: #2f281e;
+  }
+}
+
+.section-12 {
+  background-color: #ffc43b !important;
+  height: 90vh;
+
+  .input-body {
+    margin-top: 10px;
+    input {
+      border-width: 0px;
+      border-radius: 20px;
+      width: 320px;
+      height: 40px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.logo-h4 {
+  @extend .logo;
+  padding-top: 0vh;
+  flex-grow: 0;
+  h4 {
+    color: white;
+  }
+}
